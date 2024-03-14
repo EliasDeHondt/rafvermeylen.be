@@ -6,7 +6,6 @@
 
 /* Root */
 :root {
-    --text: #0b0802;
     --primary-color: #d9a33e;
     --secondary-color: #b5e98f;
 }
@@ -49,4 +48,14 @@ body {
     margin-right: 45%;
     margin-top: 15%;
 }
-    
+/* Logo */
+
+/* H1 */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 5em;
+    color: var(--secondary-color);
+    margin-top: 50px;
+}
+/* H1 */
