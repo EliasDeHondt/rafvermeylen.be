@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /assets
+Disallow: /lib
+Disallow: /data
+Disallow: /sendemail
+Allow: index.html
+Allow: index.php
+
+Sitemap: https://rafvermeylen.be/sitemap.xml
+
+Crawl-delay: 5

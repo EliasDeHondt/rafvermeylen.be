@@ -1,0 +1,52 @@
+/**
+* @author Elias De Hondt
+* @see https://eliasdh.com
+* @since 14/03/2024
+*/
+
+/* Root */
+:root {
+    --text: #0b0802;
+    --primary-color: #d9a33e;
+    --secondary-color: #b5e98f;
+}
+/* Root */
+
+/* Selectioncoler */
+.selectioncoler *::selection{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+/* Selectioncoler */
+
+/* Scrollbars */
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background:  var(--secondary-color);
+}
+/* Scrollbars */
+
+/* Footer */
+#Bottom {
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Footer */
+
+/* Body */
+body {
+    background-color: var(--primary-color);
+}
+/* Body */
+
+/* Logo */
+.logo-center {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 15%;
+}
+    
